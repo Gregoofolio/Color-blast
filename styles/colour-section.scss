@@ -1,3 +1,6 @@
+body{
+	padding-bottom: 300px;
+}
 .title{
 	text-align: center;
 	font-family:'Lato';
@@ -108,6 +111,62 @@
 	&.c-wisteria{
 		background-color: $wisteria;
 	}
+
+	&.c-plum{
+		background-color: $plum;
+	}
+	&.c-seance{
+		background-color: $seance;
+	}
+	&.c-medium-purple{
+		background-color: $medium-purple;
+	}
+	&.c-light-wisteria{
+		background-color: $light-wisteria;
+	}
+	&.c-studio{
+		background-color: $studio;
+	}
+	&.c-new-york-pink{
+		background-color: $new-york-pink;
+	}
+	&.c-red{
+		background-color: $red;
+	}
+	&.c-sunglo{
+		background-color: $sunglo;
+	}
+	&.c-thunderbird{
+		background-color: $thunderbird;
+	}
+	&.c-old-brick{
+		background-color: $old-brick;
+	}
+	&.c-flamingo{
+		background-color: $flamingo;
+	}
+	&.c-valencia{
+		background-color: $valencia;
+	}
+	&.c-tall-poppy{
+		background-color: $tall-poppy;
+	}
+	&.c-monza{
+		background-color: $monza;
+	}
+	&.c-cinnabar{
+		background-color: $cinnabar;
+	}
+	&.c-tahiti-gold{
+		background-color: $tahiti-gold;
+	}
+	&.c-casablanca{
+		background-color: $casablanca;
+	}
+	&.c-crusta{
+		background-color: $crusta;
+	}
+
 }
 .colour-title, .colour-hex{
 	font-family: 'Lato';

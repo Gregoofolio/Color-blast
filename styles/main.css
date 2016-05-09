@@ -415,6 +415,10 @@ th {
   visibility: hidden;
 }
 
+body {
+  padding-bottom: 300px;
+}
+
 .title {
   text-align: center;
   font-family: 'Lato';
@@ -529,6 +533,60 @@ th {
 }
 .colour.c-wisteria {
   background-color: #8e44ad;
+}
+.colour.c-plum {
+  background-color: #913d88;
+}
+.colour.c-seance {
+  background-color: #9a12b3;
+}
+.colour.c-medium-purple {
+  background-color: #bf55ec;
+}
+.colour.c-light-wisteria {
+  background-color: #be90d4;
+}
+.colour.c-studio {
+  background-color: #8e44ad;
+}
+.colour.c-new-york-pink {
+  background-color: #e08283;
+}
+.colour.c-red {
+  background-color: red;
+}
+.colour.c-sunglo {
+  background-color: #e26a6a;
+}
+.colour.c-thunderbird {
+  background-color: #d91e18;
+}
+.colour.c-old-brick {
+  background-color: #96281b;
+}
+.colour.c-flamingo {
+  background-color: #ef4836;
+}
+.colour.c-valencia {
+  background-color: #d64541;
+}
+.colour.c-tall-poppy {
+  background-color: #c0392b;
+}
+.colour.c-monza {
+  background-color: #cf000f;
+}
+.colour.c-cinnabar {
+  background-color: #e74c3c;
+}
+.colour.c-tahiti-gold {
+  background-color: #e87e04;
+}
+.colour.c-casablanca {
+  background-color: #f4b350;
+}
+.colour.c-crusta {
+  background-color: #f2784b;
 }
 
 .colour-title, .colour-hex {

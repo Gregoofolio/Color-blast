@@ -1,0 +1,179 @@
+.title{
+	text-align: center;
+	font-family:'Lato';
+	font-size: 3rem;
+	color: $black;
+	margin: 2em auto 0;
+}
+.sub-title{
+	font-family:'Lato';
+	font-weight: 300;
+	font-size: 1.3rem;
+	text-align: center;
+	margin: 0 auto 4em;
+	color: $grey;
+	span{
+		color: $black;
+		font-weight: 500;
+		transition: color 0.3s ease;
+	}
+
+}
+.col-colour{
+	margin-bottom: 3em;
+	position: relative;
+	padding: 0;
+
+}
+.blast{
+	display: block;
+	position: absolute;
+	margin-left: 50%;
+	margin-top : -50%;
+	transform: translate(-50%,-50%);
+	border-radius:50%;
+	animation-name: blast;
+    animation-duration: 1s;
+    pointer-events: none;
+
+}
+.colour{
+	display: block;
+	margin: 0 auto;
+	width: 100px;
+	height: 100px;
+	border-radius:50%;
+	-webkit-box-shadow: 10px 13px 24px -5px rgba(0,0,0,0.2);
+	-moz-box-shadow: 10px 13px 24px -5px rgba(0,0,0,0.2);
+	box-shadow: 10px 13px 24px -5px rgba(0,0,0,0.2);
+	cursor: pointer;
+
+	&.c-alizarin{
+		background-color: $alizarin;
+	}
+	&.c-amethyst{
+		background-color: $amethyst;
+	}
+	&.c-asbestos{
+		background-color: $asbestos;
+	}
+	&.c-belize-hole{
+		background-color: $belize-hole;
+	}
+	&.c-carrot{
+		background-color: $carrot;
+	}
+	&.c-clouds{
+		background-color: $clouds;
+	}
+	&.c-concrete{
+		background-color: $concrete;
+	}
+	&.c-emerald{
+		background-color: $emerald;
+	}
+	&.c-green-sea{
+		background-color: $green-sea;
+	}
+	&.c-midnight-blue{
+		background-color: $midnight-blue;
+	}
+	&.c-nephritis{
+		background-color: $nephritis;
+	}
+	&.c-orange{
+		background-color: $orange;
+	}
+	&.c-peter-river{
+		background-color: $peter-river;
+	}
+	&.c-pomegranade{
+		background-color: $pomegranade;
+	}
+	&.c-pumpkin{
+		background-color: $pumpkin;
+	}
+	&.c-silver{
+		background-color: $silver;
+	}
+	&.c-sunflower{
+		background-color: $sunflower;
+	}
+	&.c-turquise{
+		background-color: $turquoise;
+	}
+	&.c-wet-asphalt{
+		background-color: $wet-asphalt;
+	}
+	&.c-wisteria{
+		background-color: $wisteria;
+	}
+}
+.colour-title, .colour-hex{
+	font-family: 'Lato';
+	text-align: center;
+}
+.colour-title{
+	font-size: 1.2rem;
+	font-weight: 700;
+	margin: 1em auto 0;
+	color: $black;
+}
+.colour-hex{
+	font-size: 1rem;
+	font-weight: 300;
+	margin: 0;
+}
+
+@-webkit-keyframes blast {
+	0%{ 
+		opacity:0.9;
+		width:50px;
+		height: 50px;
+
+	}
+	100%{ 
+		opacity:0;
+		width: 1000px;
+		height: 1000px;
+	}
+}
+@-o-keyframes blast {
+	0%{ 
+		opacity:0.9;
+		width:50px;
+		height: 50px;
+
+	}
+	100%{ 
+		opacity:0;
+		width: 1000px;
+		height: 1000px;
+	}
+}
+@-moz-keyframes blast {
+	0%{ 
+		opacity:0.9;
+		width:50px;
+		height: 50px;
+
+	}
+	100%{ 
+		opacity:0;
+		width: 1000px;
+		height: 1000px;
+	}
+}
+@keyframes blast {
+	0%{ 
+		opacity:0.9;
+		width:50px;
+		height: 50px;
+
+	}
+	100%{ 
+		opacity:0;
+		width: 1000px;
+		height: 1000px;
+	}
+}

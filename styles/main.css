@@ -419,12 +419,21 @@ body {
   padding-bottom: 300px;
 }
 
+header {
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  height: 180px;
+  z-index: 1000;
+  padding: 2em 0;
+}
+
 .title {
   text-align: center;
   font-family: 'Lato';
   font-size: 3rem;
   color: #222222;
-  margin: 2em auto 0;
+  margin: 0 auto;
 }
 
 .sub-title {
@@ -432,7 +441,7 @@ body {
   font-weight: 300;
   font-size: 1.3rem;
   text-align: center;
-  margin: 0 auto 4em;
+  margin: 0 auto;
   color: #444444;
 }
 .sub-title span {
@@ -440,6 +449,16 @@ body {
   font-weight: 500;
   -webkit-transition: color 0.3s ease;
   transition: color 0.3s ease;
+}
+
+.color-pallete {
+  font-family: 'Lato';
+  font-size: 1.5rem;
+  color: #222222;
+}
+
+.colour-container {
+  padding-top: 180px;
 }
 
 .col-colour {
@@ -462,13 +481,14 @@ body {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
   pointer-events: none;
+  z-index: 1001;
 }
 
 .colour {
   display: block;
   margin: 0 auto;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   -webkit-box-shadow: 10px 13px 24px -5px rgba(0, 0, 0, 0.2);
   box-shadow: 10px 13px 24px -5px rgba(0, 0, 0, 0.2);
@@ -546,9 +566,6 @@ body {
 .colour.c-light-wisteria {
   background-color: #be90d4;
 }
-.colour.c-studio {
-  background-color: #8e44ad;
-}
 .colour.c-new-york-pink {
   background-color: #e08283;
 }
@@ -587,6 +604,30 @@ body {
 }
 .colour.c-crusta {
   background-color: #f2784b;
+}
+.colour.c-jaffa {
+  background-color: #eb974e;
+}
+.colour.c-lightning-yellow {
+  background-color: #f5ab35;
+}
+.colour.c-saffron-light {
+  background-color: #f4d03f;
+}
+.colour.c-burnt-orange {
+  background-color: #d35400;
+}
+.colour.c-ecstasy {
+  background-color: #f9690e;
+}
+.colour.c-ripe-lemon {
+  background-color: #f7ca18;
+}
+.colour.c-saffron {
+  background-color: #f9bf3b;
+}
+.colour.c-fire-bush {
+  background-color: #eb9532;
 }
 
 .colour-title, .colour-hex {

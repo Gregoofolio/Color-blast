@@ -1,19 +1,28 @@
 body{
 	padding-bottom: 300px;
 }
+header{
+	position: fixed;
+	width: 100%;
+	background-color: #fff;
+	height: 180px;
+	z-index:1000;
+	padding: 2em 0;
+
+}
 .title{
 	text-align: center;
 	font-family:'Lato';
 	font-size: 3rem;
 	color: $black;
-	margin: 2em auto 0;
+	margin: 0 auto;
 }
 .sub-title{
 	font-family:'Lato';
 	font-weight: 300;
 	font-size: 1.3rem;
 	text-align: center;
-	margin: 0 auto 4em;
+	margin: 0 auto;
 	color: $grey;
 	span{
 		color: $black;
@@ -21,6 +30,14 @@ body{
 		transition: color 0.3s ease;
 	}
 
+}
+.color-pallete{
+	font-family: 'Lato';
+	font-size: 1.5rem;
+	color:$black;
+}
+.colour-container{
+	padding-top: 180px;
 }
 .col-colour{
 	margin-bottom: 3em;
@@ -38,13 +55,13 @@ body{
 	animation-name: blast;
     animation-duration: 1s;
     pointer-events: none;
-
+    z-index:1001;
 }
 .colour{
 	display: block;
 	margin: 0 auto;
-	width: 100px;
-	height: 100px;
+	width: 80px;
+	height: 80px;
 	border-radius:50%;
 	-webkit-box-shadow: 10px 13px 24px -5px rgba(0,0,0,0.2);
 	-moz-box-shadow: 10px 13px 24px -5px rgba(0,0,0,0.2);
@@ -124,9 +141,7 @@ body{
 	&.c-light-wisteria{
 		background-color: $light-wisteria;
 	}
-	&.c-studio{
-		background-color: $studio;
-	}
+
 	&.c-new-york-pink{
 		background-color: $new-york-pink;
 	}
@@ -165,6 +180,31 @@ body{
 	}
 	&.c-crusta{
 		background-color: $crusta;
+	}
+	&.c-jaffa{
+		background-color: $jaffa;
+	}
+	&.c-lightning-yellow{
+		background-color: $lightning-yellow;
+	}
+	&.c-saffron-light{
+		background-color: $saffron-light;
+	}
+	&.c-burnt-orange{
+		background-color: $burnt-orange;
+	}
+	&.c-ecstasy{
+		background-color: $ecstasy;
+	}
+	&.c-ripe-lemon{
+		background-color: $ripe-lemon;
+	}
+	&.c-saffron{
+		background-color: $saffron;
+	}
+
+	&.c-fire-bush{
+		background-color: $fire-bush;
 	}
 
 }

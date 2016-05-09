@@ -417,6 +417,7 @@ th {
 
 body {
   padding-bottom: 300px;
+  overflow-x: hidden;
 }
 
 header {
@@ -625,6 +626,48 @@ header {
 }
 .colour.c-fire-bush {
   background-color: #eb9532;
+}
+.colour.c-downy {
+  background-color: #65c6bb;
+}
+.colour.c-fire-bush {
+  background-color: #eb9532;
+}
+.colour.c-light-sea {
+  background-color: #1ba39c;
+}
+.colour.c-medium-aquamarine {
+  background-color: #66cc99;
+}
+.colour.c-observatory {
+  background-color: #049372;
+}
+.colour.c-madang {
+  background-color: #c8f7c5;
+}
+.colour.c-riptide {
+  background-color: #86e2d5;
+}
+.colour.c-green-haze {
+  background-color: #019875;
+}
+.colour.c-jungle-green {
+  background-color: #26c281;
+}
+.colour.c-aquamarine {
+  background-color: #03a678;
+}
+.colour.c-ocean-green {
+  background-color: #4daf7c;
+}
+.colour.c-jade {
+  background-color: #00b16a;
+}
+.colour.c-salem {
+  background-color: #1e824c;
+}
+.colour.c-eucalyptus {
+  background-color: #26a65b;
 }
 
 .colour-title, .colour-hex {

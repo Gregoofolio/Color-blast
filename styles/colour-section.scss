@@ -1,5 +1,6 @@
 body{
 	padding-bottom: 300px;
+	overflow-x: hidden;
 }
 header{
 	position: fixed;
@@ -204,6 +205,50 @@ header{
 	&.c-fire-bush{
 		background-color: $fire-bush;
 	}
+
+	&.c-downy{
+		background-color: $downy;
+	}
+	&.c-fire-bush{
+		background-color: $fire-bush;
+	}
+	&.c-light-sea{
+		background-color: $light-sea;
+	}
+	&.c-medium-aquamarine{
+		background-color: $medium-aquamarine;
+	}
+	&.c-observatory{
+		background-color: $observatory;
+	}
+	&.c-madang{
+		background-color: $madang;
+	}
+	&.c-riptide{
+		background-color: $riptide;
+	}
+	&.c-green-haze{
+		background-color: $green-haze;
+	}
+	&.c-jungle-green{
+		background-color: $jungle-green;
+	}
+	&.c-aquamarine{
+		background-color: $aquamarine;
+	}
+	&.c-ocean-green{
+		background-color: $ocean-green;
+	}
+	&.c-jade{
+		background-color: $jade;
+	}
+	&.c-salem{
+		background-color: $salem;
+	}
+	&.c-eucalyptus{
+		background-color: $eucalyptus;
+	}
+
 
 }
 .colour-title, .colour-hex{

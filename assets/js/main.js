@@ -17,11 +17,12 @@ $(function setColourWord(){
 
 
 $('.colour').click(function(){
-	var colour = $(this).css('background-color');
-	$this = $(this);
+  var colour = $(this).css('background-color');
+  $this = $(this);
 
-	// $this.parent().append('<div class="blast" style="background-color:' + colour + '" ></div>').delay(1200).remove($(this));
-  $('<div class="blast" style="background-color:' + colour + '" ></div>').appendTo($this.parent())
+
+  $('<div class="blast" style="background-color:' + colour + '" ></div>')
+  .appendTo($this.parent())
   .delay(1500).queue(function() { $(this).remove(); });
 
 });

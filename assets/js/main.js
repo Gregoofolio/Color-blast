@@ -20,12 +20,11 @@ $('.colour').click(function(){
 	var colour = $(this).css('background-color');
 	$this = $(this);
 
-	$this.parent().append('<div class="blast" style="background-color:' + colour + '" onload="remove()"></div>');
+	$this.parent().append('<div class="blast" style="background-color:' + colour + '" ></div>');
 	setTimeout(function(){
-		$this.children('.blast').remove();
+		$this.parent().children('.blast').remove();
 	},1200);
 });
-
 
 
 

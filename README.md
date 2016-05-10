@@ -1,5 +1,9 @@
 # Color-blast
 
-Simple use of CSS Animations and jQuery to blast nice colors to the background.
+Simple use of CSS Animations and jQuery to blast nice colors to the background and copy HEX to clipboard.
+### Currently sorted by: 
+ * base
+ * palettes
+ * social media
 
-Find demo [Here](http://gregoofolio.github.io/Color-blast/)
+Try demo [Here](http://gregoofolio.github.io/Color-blast/)

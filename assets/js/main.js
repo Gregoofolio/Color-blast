@@ -1,29 +1,29 @@
 jQuery(document).ready(function($) {
-  new Clipboard('.colour');
+  new Clipboard('.color');
 });
 
 
 
-$(function setColourWord(){
-  var $colourWord = $('.colour-word');
+$(function setcolorWord(){
+  var $colorWord = $('.color-word');
 
-  $('.colour').mouseenter(function(){
-    var colour = $(this).css('background-color');
-    $colourWord.css('color', colour);
+  $('.color').mouseenter(function(){
+    var color = $(this).css('background-color');
+    $colorWord.css('color', color);
   });
-  $('.colour').mouseleave(function(){
-    var colour = $(this).css('background-color');
-    $colourWord.css('color', '#222');
+  $('.color').mouseleave(function(){
+    var color = $(this).css('background-color');
+    $colorWord.css('color', '#222');
   });
 })
 
 
-$('.colour').click(function(){
-  var colour = $(this).css('background-color');
+$('.color').click(function(){
+  var color = $(this).css('background-color');
   $this = $(this);
   
   
-  $('<div class="blast" style="background-color:' + colour + '" ></div>')
+  $('<div class="blast" style="background-color:' + color + '" ></div>')
   .appendTo($this.parent())
   .delay(1500).queue(function() { $(this).remove(); });
 

@@ -32,15 +32,23 @@ header{
 	}
 
 }
-.color-pallete{
+.title-container{
+	padding-top: 2em;
+}
+.title-container:nth-of-type(1){
+	padding-top: 180px;
+}
+.color-palette{
 	font-family: 'Lato';
 	font-size: 1.5rem;
 	color:$black;
 }
-.colour-container{
-	padding-top: 180px;
+.color-container{
+	padding-top: 2em;
 }
-.col-colour{
+
+
+.col-color{
 	margin-bottom: 3em;
 	position: relative;
 	padding: 0;
@@ -58,7 +66,7 @@ header{
     pointer-events: none;
     z-index:1001;
 }
-.colour{
+.color{
 	display: block;
 	margin: 0 auto;
 	width: 80px;
@@ -69,9 +77,8 @@ header{
 	box-shadow: 10px 13px 24px -5px rgba(0,0,0,0.2);
 	cursor: pointer;
 
-	&.c-alizarin{
-		background-color: $alizarin;
-	}
+	// Base
+
 	&.c-amethyst{
 		background-color: $amethyst;
 	}
@@ -108,8 +115,8 @@ header{
 	&.c-peter-river{
 		background-color: $peter-river;
 	}
-	&.c-pomegranade{
-		background-color: $pomegranade;
+	&.c-pomegranate{
+		background-color: $pomegranate;
 	}
 	&.c-pumpkin{
 		background-color: $pumpkin;
@@ -130,6 +137,8 @@ header{
 		background-color: $wisteria;
 	}
 
+
+	// Palettes
 	&.c-plum{
 		background-color: $plum;
 	}
@@ -142,7 +151,6 @@ header{
 	&.c-light-wisteria{
 		background-color: $light-wisteria;
 	}
-
 	&.c-new-york-pink{
 		background-color: $new-york-pink;
 	}
@@ -163,9 +171,6 @@ header{
 	}
 	&.c-valencia{
 		background-color: $valencia;
-	}
-	&.c-tall-poppy{
-		background-color: $tall-poppy;
 	}
 	&.c-monza{
 		background-color: $monza;
@@ -191,7 +196,6 @@ header{
 	&.c-saffron-light{
 		background-color: $saffron-light;
 	}
-
 	&.c-ecstasy{
 		background-color: $ecstasy;
 	}
@@ -201,11 +205,9 @@ header{
 	&.c-saffron{
 		background-color: $saffron;
 	}
-
 	&.c-fire-bush{
 		background-color: $fire-bush;
 	}
-
 	&.c-downy{
 		background-color: $downy;
 	}
@@ -227,9 +229,6 @@ header{
 	&.c-riptide{
 		background-color: $riptide;
 	}
-	&.c-green-haze{
-		background-color: $green-haze;
-	}
 	&.c-jungle-green{
 		background-color: $jungle-green;
 	}
@@ -239,29 +238,155 @@ header{
 	&.c-ocean-green{
 		background-color: $ocean-green;
 	}
-	&.c-jade{
-		background-color: $jade;
-	}
 	&.c-salem{
 		background-color: $salem;
 	}
 	&.c-eucalyptus{
 		background-color: $eucalyptus;
 	}
-
-
+	&.c-shakespeare{
+		background-color: $shakespeare;
+	}
+	&.c-curious-blue{
+		background-color: $curious-blue;
+	}
+	&.c-madison{
+		background-color: $madison;
+	}
+	&.c-jordy-blue{
+		background-color: $jordy-blue;
+	}
+	&.c-dodger-blue{
+		background-color: $dodger-blue;
+	}
+	&.c-ming{
+		background-color: $ming;
+	}
+	&.c-ebony-clay{
+		background-color: $ebony-clay;
+	}
+	&.c-malibu{
+		background-color: $malibu;
+	}
+	&.c-poseidon{
+		background-color: $poseidon;
+	}
+	&.c-chambry{
+		background-color: $chambry;
+	}
+	&.c-pickled-bluewood{
+		background-color: $pickled-bluewood;
+	}
+	&.c-hoki{
+		background-color: $hoki;
+	}
+	&.c-jelly-bean{
+		background-color: $jelly-bean;
+	}
+	&.c-jackson-purple{
+		background-color: $jackson-purple;
+	}
+	&.c-steel-blue{
+		background-color: $steel-blue;
+	}
+	&.c-fountain-blue{
+		background-color: $fountain-blue;
+	}
+	&.c-porcelain{
+		background-color: $porcelain;
+	}
+	&.c-gallery{
+		background-color: $gallery;
+	}
+	&.c-iron{
+		background-color: $iron;
+	}
+	&.c-pumice{
+		background-color: $pumice;
+	}
+	&.c-silver-sand{
+		background-color: $silver-sand;
+	}
+	&.c-edward{
+		background-color: $edward;
+	}
+	&.c-cascade{
+		background-color: $cascade;
+	}
+	
+	// Social media
+	&.c-twitter{
+		background-color: $twitter;
+	}
+	&.c-facebook{
+		background-color: $facebook;
+	}
+	&.c-googleplus{
+		background-color: $googleplus;
+	}
+	&.c-pinterest{
+		background-color: $pinterest;
+	}
+	&.c-linkedin{
+		background-color: $linkedin;
+	}
+	&.c-youtube{
+		background-color: $youtube;
+	}
+	&.c-vimeo{
+		background-color: $vimeo;
+	}
+	&.c-tumblr{
+		background-color: $tumblr;
+	}
+	&.c-instagram{
+		background-color: $instagram;
+	}
+	&.c-flickr{
+		background-color: $flickr;
+	}
+	&.c-dribbble{
+		background-color: $dribbble;
+	}
+	&.c-quora{
+		background-color: $quora;
+	}
+	&.c-foursquare{
+		background-color: $foursquare;
+	}
+	&.c-forrst{
+		background-color: $forrst;
+	}
+	&.c-vk{
+		background-color: $vk;
+	}
+	&.c-wordpress{
+		background-color: $wordpress;
+	}
+	&.c-stumbleupon{
+		background-color: $stumbleupon;
+	}
+	&.c-yahoo{
+		background-color: $yahoo;
+	}
+	&.c-blogger{
+		background-color: $blogger;
+	}
+	&.c-soundcloud{
+		background-color: $soundcloud;
+	}
 }
-.colour-title, .colour-hex{
+.color-title, .color-hex{
 	font-family: 'Lato';
 	text-align: center;
 }
-.colour-title{
+.color-title{
 	font-size: 1.2rem;
 	font-weight: 700;
 	margin: 1em auto 0;
 	color: $black;
 }
-.colour-hex{
+.color-hex{
 	font-size: 1rem;
 	font-weight: 300;
 	margin: 0;

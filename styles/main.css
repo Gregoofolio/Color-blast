@@ -452,6 +452,22 @@ header {
   transition: color 0.3s ease;
 }
 
+.links {
+  font-family: 'Lato';
+  font-weight: 300;
+  text-align: center;
+}
+.links a {
+  font-weight: 500;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+  text-decoration: none;
+  color: #222;
+}
+.links a:hover {
+  text-decoration: underline;
+}
+
 .title-container {
   padding-top: 2em;
 }

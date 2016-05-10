@@ -32,6 +32,21 @@ header{
 	}
 
 }
+.links{
+	font-family: 'Lato';
+	font-weight: 300;
+	text-align: center;
+	a{
+		font-weight: 500;
+		transition: color 0.3s ease;
+		text-decoration: none;
+		color: #222;
+		&:hover{
+			text-decoration: underline;
+		}
+	}
+
+}
 .title-container{
 	padding-top: 2em;
 }

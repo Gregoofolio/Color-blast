@@ -7,3 +7,5 @@ Simple use of CSS Animations and jQuery to blast nice colors to the background a
  * social media
 
 Try demo [Here](http://gregoofolio.github.io/Color-blast/)
+
+![demo](https://github.com/Gregoofolio/Color-blast/blob/master/Color-blast.gif)

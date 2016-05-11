@@ -424,15 +424,15 @@ header {
   position: fixed;
   width: 100%;
   background-color: #fff;
-  height: 180px;
+  height: 130px;
   z-index: 1000;
-  padding: 2em 0;
+  padding: 0.5em 0;
 }
 
 .title {
   text-align: center;
   font-family: 'Lato';
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: #222222;
   margin: 0 auto;
 }
@@ -440,7 +440,7 @@ header {
 .sub-title {
   font-family: 'Lato';
   font-weight: 300;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   text-align: center;
   margin: 0 auto;
   color: #444444;
@@ -456,6 +456,9 @@ header {
   font-family: 'Lato';
   font-weight: 300;
   text-align: center;
+  margin: 0;
+  font-size: 0.8rem;
+  margin-top: 0.4em;
 }
 .links a {
   font-weight: 500;
@@ -473,7 +476,7 @@ header {
 }
 
 .title-container:nth-of-type(1) {
-  padding-top: 180px;
+  padding-top: 130px;
 }
 
 .color-palette {

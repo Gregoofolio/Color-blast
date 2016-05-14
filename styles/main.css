@@ -499,7 +499,7 @@ header {
   display: block;
   position: absolute;
   margin-left: 50%;
-  margin-top: -60%;
+  margin-top: -50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);

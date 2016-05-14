@@ -29,6 +29,44 @@ $('.color').click(function(){
 
 });
 
+$(function chooseOption(){
+    $(".choose-option").first().addClass('active');
+
+    $(".choose-option").click(function(e){
+        e.preventDefault();
+        var $this = $(this);
+        var $colorDiv = $('.color')
+        $this.addClass('active');
+        $this.siblings().removeClass('active');
+        
+        // If user clicks on RGB option
+        if ($this.hasClass('choose-option-2')){
+            $('.choose-border').addClass('changed');
+
+            // Change attribute "data-clipboard-text" in all color elements from HEX value to RGB value
+            $colorDiv.each(function(){
+          
+              var rgbVal = $(this).attr("data-rgb");
+              $(this).attr("data-clipboard-text", rgbVal);
+            
+            });
+        } 
+        // If user clicks on HEX option
+        if ($this.hasClass('choose-option-1')){
+            $('.choose-border').removeClass('changed');
+            
+            // Change attribute "data-clipboard-text" in all color elements from RGB value to HEX value
+            $colorDiv.each(function(){
+
+              var hexVal = $(this).attr("data-hex");
+              $(this).attr("data-clipboard-text", hexVal);
+
+
+            });
+        };
+    });
+});
+
 
 
 

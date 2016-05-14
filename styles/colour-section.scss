@@ -84,6 +84,65 @@ header{
     pointer-events: none;
     z-index:1001;
 }
+.choose-border{
+	display: block;
+	position: fixed;
+	top:30px;
+	left:30px;
+	width: 130px;
+	height: 50px;
+	border:1px solid lighten(#26292c, 65%);
+	border-radius:25px;
+	
+	&:before{
+		content: attr(data-content) "";
+		width: 47%;
+		height: 40px;
+		border-radius:25px;
+		position: absolute;
+		top:4px; left:2%;
+		-webkit-box-shadow: 0px 0px 20px 3px rgba(0,0,0,0.19);
+		-moz-box-shadow: 0px 0px 25px 3px rgba(0,0,0,0.19);
+		box-shadow: 0px 0px 25px 3px rgba(0,0,0,0.19);
+		transition: left 0.3s ease;
+		pointer-events:none;
+		@media screen and (max-width: 530px){
+			height: 28px;
+			top:0px;
+		}
+	}
+	&.changed:before{
+		left:50%;
+	}
+	.choose-option{
+		width: 48%;
+		font-family: 'Lato';
+		font-size: 0.8rem;
+		color: #555;
+		display: inline-block;
+		text-decoration: none;
+		text-align: center;
+		line-height: 48px;
+
+
+		&.active{
+			color: $ming;
+		}
+		@media screen and (max-width: 530px){
+			font-size: 0.6rem;
+			line-height: 28px;
+			width: 46%;
+		}
+	}
+	@media screen and (max-width: 530px){
+		left:50%;
+		transform: translateX(-50%);
+		top:132px;
+		width: 80px;
+		height: 30px;
+		background-color: #fff;
+	}
+}
 .color{
 	display: block;
 	margin: 0 auto;
@@ -394,7 +453,7 @@ header{
 		background-color: $soundcloud;
 	}
 }
-.color-title, .color-hex{
+.color-title, .color-hex, .color-rgb{
 	font-family: 'Lato';
 	text-align: center;
 }
@@ -404,7 +463,7 @@ header{
 	margin: 1em auto 0;
 	color: $black;
 }
-.color-hex{
+.color-hex, .color-rgb{
 	font-size: 1rem;
 	font-weight: 300;
 	margin: 0;

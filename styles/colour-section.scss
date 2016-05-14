@@ -467,6 +467,16 @@ header{
 	font-size: 1rem;
 	font-weight: 300;
 	margin: 0;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%)
+}
+
+.color-text{
+	opacity: 0;
+	&.active{
+		opacity: 1;
+	}
 }
 
 @-webkit-keyframes blast {

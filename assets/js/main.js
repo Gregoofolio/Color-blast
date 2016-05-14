@@ -17,7 +17,6 @@ $(function setcolorWord(){
   });
 })
 
-
 $('.color').click(function(){
   var color = $(this).css('background-color');
   $this = $(this);
@@ -29,8 +28,10 @@ $('.color').click(function(){
 
 });
 
+
 $(function chooseOption(){
     $(".choose-option").first().addClass('active');
+    $(".color-hex").addClass('active');
 
     $(".choose-option").click(function(e){
         e.preventDefault();
@@ -43,6 +44,11 @@ $(function chooseOption(){
         if ($this.hasClass('choose-option-2')){
             $('.choose-border').addClass('changed');
 
+
+            $('.color-hex').removeClass('active');
+            $('.color-rgb').addClass('active');
+
+
             // Change attribute "data-clipboard-text" in all color elements from HEX value to RGB value
             $colorDiv.each(function(){
           
@@ -54,6 +60,11 @@ $(function chooseOption(){
         // If user clicks on HEX option
         if ($this.hasClass('choose-option-1')){
             $('.choose-border').removeClass('changed');
+
+
+            $('.color-rgb').removeClass('active');
+            $('.color-hex').addClass('active');
+
             
             // Change attribute "data-clipboard-text" in all color elements from RGB value to HEX value
             $colorDiv.each(function(){
